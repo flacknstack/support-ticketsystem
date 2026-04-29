@@ -36,8 +36,8 @@ $plugins->add_hook('myalerts_register_client_alert_formatters', 'ticketsystem_re
 function ticketsystem_info()
 {
 	return array(
-		"name"		=> "Support-Ticketsystem",
-		"description"	=> "Erweitert das Forum um ein Support-Ticketsystem für Teammitglieder.",
+		"name"		=> "Support-Ticket System",
+		"description"	=> "Extends the forum with a support ticket system for team members..",
 		"website"	=> "https://github.com/little-evil-genius/Support-Ticketsystem",
 		"author"	=> "little.evil.genius",
 		"authorsite"	=> "https://storming-gates.de/member.php?action=profile&uid=1712",
@@ -74,7 +74,7 @@ function ticketsystem_install() {
     $setting_group = array(
         'name'          => 'ticketsystem',
         'title'         => 'Support-Ticketsystem',
-        'description'   => 'Einstellungen für das Support-Ticketsystem',
+        'description'   => 'Support Ticket System Settings',
         'disporder'     => $maxdisporder+1,
         'isdefault'     => 0
     );
